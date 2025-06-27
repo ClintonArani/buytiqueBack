@@ -4,11 +4,13 @@
   "description": "Modern ecommerce application",
   "main": "server.js",
   "scripts": {
+    "build": "tsc",
     "start:build": "tsc --watch",
     "start:run": "nodemon ./dist/server.js",
     "start": "concurrently npm:start:*",
     "test": "jest --watchAll"
-  },
+  }
+  ,
   "author": "Morine Maina",
   "license": "ISC",
   "dependencies": {
